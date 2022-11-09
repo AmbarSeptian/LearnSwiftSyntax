@@ -1,6 +1,8 @@
 
 // Perf
-func functionWithPerformanceComment() -> String {
+func functionWithPerformanceComment(_ param1: String, param2: String, param3 param: String,file:String=#file)-> String {
+Performance()
+Performance()
     fatalError()
 }
 
@@ -15,3 +17,11 @@ dynamic func loadData() {
     // { disini code nya }
     // method stop
 }
+
+// wkwkwk
+func functionWithPerformanceComment2(_ param1: String, param2: String, param3 param: String)-> String {
+    fatalError()
+}
+
+
+func Performance() {}
